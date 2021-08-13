@@ -6,6 +6,8 @@
 	display: flex;
 	transform: translateY(37%);
 	justify-content: center;
+	position: relative;
+	z-index: 2;
 }
 .details-item {
 	width: 100%;
