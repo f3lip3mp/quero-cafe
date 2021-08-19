@@ -33,7 +33,7 @@
 			<div class="search-coffe">
 				<h1>Quero café</h1>
 				<div class="container-search">
-					<input type="text" placeholder="Encontre o melhor café ">
+					<input id="search-input" type="text" placeholder="Encontre o melhor café ">
 					<button>
 						<svg xmlns="http://www.w3.org/2000/svg" width="11" height="14">
 							<path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6" />
@@ -41,7 +41,7 @@
 					</button>
 				</div>
 			</div>
-			<div class="search-details">
+			<!-- <div class="search-details">
 				<div class="details-item">
 					<div class="details">
 						<h3 class="item-title">ip adress</h3>
@@ -68,14 +68,18 @@
 				</div>
 			</div>
 		</div>
-		</div>
+		</div> -->
 	</header>
 	<main>
-		<div class="container-main">
+		<div class="container-main"> 
 			<div id="mapid"></div>
 		</div>
 	</main>
-	<script src="./js/map.js"></script>
+	<script async
+    src="https://maps.googleapis.com/maps/api/js?key=">
+	</script>
+		<script src="./js/Map.js"></script>
+	<script src="./js/index.js"></script>
 </body>
 
 </html>
